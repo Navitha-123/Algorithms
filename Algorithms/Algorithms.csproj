@@ -48,6 +48,7 @@
     <Compile Include="UC3InsertStringSort.cs" />
     <Compile Include="UC4BubbleSort.cs" />
     <Compile Include="UC6Anagram.cs" />
+    <Compile Include="UC7PrimeNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
