@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC1_StringPermutation.cs" />
     <Compile Include="UC3InsertStringSort.cs" />
     <Compile Include="UC4BubbleSort.cs" />
     <Compile Include="UC6Anagram.cs" />

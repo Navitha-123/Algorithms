@@ -11,28 +11,28 @@ namespace Algorithms
     {
         public static void Main(String[] args)
         {
-            Console.WriteLine("choose option 3.insertsort \t 4.bubblesort \t 6.Anagram \t 7. primenumber");
+            Console.WriteLine("choose option 1.StringPermutation 3.insertsort \t 4.bubblesort \t 6.Anagram \t 7. primenumber");
 
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
                 case 1:
-                    String s = "alkasingh";
-
-                    Console.WriteLine(s);
+                    string str = "ABC";
+                    int n = str.Length;
+                    UC1_StringPermutation.Permute(str, 0, n - 1);
                     break;
-                case 2:
+                //case 2:
 
-                    Console.WriteLine("after sorting array:");
-                    Console.WriteLine();
+                //    Console.WriteLine("after sorting array:");
+                //    Console.WriteLine();
                    
-                    break;
-                case 3:
-                    UC6Anagram.AnangramDetection();
-                    break;
-                case 4:
-                    UC7PrimeNumber.PrimeNumbers();
-                    break;
+                //    break;
+                //case 3:
+                //    UC6Anagram.AnangramDetection();
+                //    break;
+                //case 4:
+                //    UC7PrimeNumber.PrimeNumbers();
+                //    break;
                 default:
                     Console.WriteLine("enter wrong choice");
                     break;
